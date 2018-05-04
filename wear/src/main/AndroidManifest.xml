@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.bigoder.Formal_Knowledge_1" >
+
+    <uses-feature android:name="android.hardware.type.watch" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/MyTheme" >
+        <activity
+            android:name="com.example.bigoder.Formal_Knowledge_1.MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/MyTheme"
+            >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="com.example.bigoder.Formal_Knowledge_1.Activity_AilPay"
+            android:label="@string/app_name"
+            android:theme="@style/MyTheme">
+        </activity>
+
+        <activity
+            android:name="com.example.bigoder.Formal_Knowledge_1.Activity_Browser"
+            android:label="@string/app_name"
+            android:theme="@style/MyTheme">
+        </activity>
+
+        <activity
+            android:name="com.example.bigoder.Formal_Knowledge_1.Activity_Calculator"
+            android:label="@string/app_name"
+            android:theme="@style/MyTheme">
+        </activity>
+
+        <activity
+            android:name="com.example.bigoder.Formal_Knowledge_1.Activity_Calendar"
+            android:label="@string/app_name"
+            android:theme="@style/MyTheme">
+        </activity>
+
+        <activity
+            android:name="com.example.bigoder.Formal_Knowledge_1.Activity_Camera"
+            android:label="@string/app_name"
+            android:theme="@style/MyTheme">
+        </activity>
+
+        <activity
+            android:name="com.example.bigoder.Formal_Knowledge_1.Activity_Chess"
+            android:label="@string/app_name"
+            android:theme="@style/MyTheme">
+        </activity>
+
+        <activity
+            android:name="com.example.bigoder.Formal_Knowledge_1.Activity_Clock"
+            android:label="@string/app_name"
+            android:theme="@style/MyTheme">
+        </activity>
+
+        <activity
+            android:name="com.example.bigoder.Formal_Knowledge_1.Activity_Compass"
+            android:label="@string/app_name"
+            android:theme="@style/MyTheme">
+        </activity>
+
+        <activity
+            android:name="com.example.bigoder.Formal_Knowledge_1.Activity_Contacts"
+            android:label="@string/app_name"
+            android:theme="@style/MyTheme">
+        </activity>
+
+        <activity
+            android:name="com.example.bigoder.Formal_Knowledge_1.Activity_Downloads"
+            android:label="@string/app_name"
+            android:theme="@style/MyTheme">
+        </activity>
+
+        <activity
+            android:name="com.example.bigoder.Formal_Knowledge_1.Activity_Exercise"
+            android:label="@string/app_name"
+            android:theme="@style/MyTheme">
+        </activity>
+
+        <activity
+            android:name="com.example.bigoder.Formal_Knowledge_1.Activity_Mail"
+            android:label="@string/app_name"
+            android:theme="@style/MyTheme">
+        </activity>
+
+        <activity
+            android:name="com.example.bigoder.Formal_Knowledge_1.Activity_Map"
+            android:label="@string/app_name"
+            android:theme="@style/MyTheme">
+        </activity>
+
+        <activity
+            android:name="com.example.bigoder.Formal_Knowledge_1.Activity_Messages"
+            android:label="@string/app_name"
+            android:theme="@style/MyTheme">
+        </activity>
+
+        <activity
+            android:name="com.example.bigoder.Formal_Knowledge_1.Activity_Music"
+            android:label="@string/app_name"
+            android:theme="@style/MyTheme">
+        </activity>
+
+        <activity
+            android:name="com.example.bigoder.Formal_Knowledge_1.Activity_Note"
+            android:label="@string/app_name"
+            android:theme="@style/MyTheme">
+        </activity>
+
+        <activity
+            android:name="com.example.bigoder.Formal_Knowledge_1.Activity_Passbook"
+            android:label="@string/app_name"
+            android:theme="@style/MyTheme">
+        </activity>
+        <activity
+            android:name="com.example.bigoder.Formal_Knowledge_1.Activity_Phone"
+            android:label="@string/app_name"
+            android:theme="@style/MyTheme">
+        </activity>
+        <activity
+            android:name="com.example.bigoder.Formal_Knowledge_1.Activity_Photos"
+            android:label="@string/app_name"
+            android:theme="@style/MyTheme">
+        </activity>
+        <activity
+            android:name="com.example.bigoder.Formal_Knowledge_1.Activity_QQ"
+            android:label="@string/app_name"
+            android:theme="@style/MyTheme">
+        </activity>
+        <activity
+            android:name="com.example.bigoder.Formal_Knowledge_1.Activity_Settings"
+            android:label="@string/app_name"
+            android:theme="@style/MyTheme">
+        </activity> <activity
+        android:name="com.example.bigoder.Formal_Knowledge_1.Activity_Sleep"
+        android:label="@string/app_name"
+        android:theme="@style/MyTheme">
+    </activity> <activity
+        android:name="com.example.bigoder.Formal_Knowledge_1.Activity_Stocks"
+        android:label="@string/app_name"
+        android:theme="@style/MyTheme">
+    </activity> <activity
+        android:name="com.example.bigoder.Formal_Knowledge_1.Activity_Stopwatch"
+        android:label="@string/app_name"
+        android:theme="@style/MyTheme">
+    </activity>
+        <activity
+            android:name="com.example.bigoder.Formal_Knowledge_1.Activity_Video"
+            android:label="@string/app_name"
+            android:theme="@style/MyTheme">
+        </activity>
+        <activity
+            android:name="com.example.bigoder.Formal_Knowledge_1.Activity_Weather"
+            android:label="@string/app_name"
+            android:theme="@style/MyTheme">
+        </activity>
+        <activity
+            android:name="com.example.bigoder.Formal_Knowledge_1.Activity_Wechat"
+            android:label="@string/app_name"
+            android:theme="@style/MyTheme">
+        </activity>
+        <activity
+            android:name="com.example.bigoder.Formal_Knowledge_1.Activity_Weibo"
+            android:label="@string/app_name"
+            android:theme="@style/MyTheme">
+        </activity>
+
+
+        <meta-data android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version"/>
+    </application>
+
+    <service android:name=".DataLayerListenerService">
+        <intent-filter>
+            <action android:name="com.google.android.gms.wearable.BIND_LISTENER"/>
+        </intent-filter>
+    </service>
+
+</manifest>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/zzz_bgimage3"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:gravity="center"
+    >
+
+    <Switch
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" 消息同步            "
+        android:id="@+id/switch3"
+        android:checked="true" />
+
+    <Switch
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="显示全部好友    "
+        android:id="@+id/switch6"
+        android:layout_gravity="center_horizontal"
+        android:checked="false" />
+
+    <Switch
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="振动                     "
+        android:id="@+id/switch1"
+        android:checked="true" />
+
+    <Switch
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="勿扰模式             "
+        android:id="@+id/switch8"
+        android:layout_gravity="center_horizontal"
+        android:checked="false" />
+
+    <Switch
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="账号保护             "
+        android:id="@+id/switch19"
+        android:layout_gravity="center_horizontal"
+        android:checked="true" />
+
+</LinearLayout>

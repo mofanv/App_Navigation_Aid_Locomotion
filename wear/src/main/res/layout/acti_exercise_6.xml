@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/zzz_bgimage3"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:gravity="center"
+    >
+
+    <Switch
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="坐    目标             "
+        android:id="@+id/switch12"
+        android:layout_gravity="center_horizontal"
+        android:checked="true" />
+
+    <Switch
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="站立目标             "
+        android:id="@+id/switch3"
+        android:layout_gravity="center_horizontal"
+        android:checked="true" />
+
+    <Switch
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="活动目标             "
+        android:id="@+id/switch10"
+        android:layout_gravity="center_horizontal"
+        android:checked="true" />
+
+    <Switch
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="健身目标             "
+        android:id="@+id/switch11"
+        android:layout_gravity="center_horizontal"
+        android:checked="true" />
+
+    <Switch
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="联网同步数据     "
+        android:id="@+id/switch9"
+        android:layout_gravity="center_horizontal"
+        android:checked="false" />
+
+</LinearLayout>

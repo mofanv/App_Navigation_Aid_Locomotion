@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/zzz_bgimage3"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:gravity="center"
+    >
+    <Switch
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="会员高速通道    "
+        android:id="@+id/switch1"
+        android:layout_gravity="center_horizontal"
+        android:checked="true" />
+
+    <Switch
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="迅雷加速             "
+        android:id="@+id/switch3"
+        android:layout_gravity="center_horizontal"
+        android:checked="false" />
+
+    <Switch
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="完成后提示         "
+        android:id="@+id/switch4"
+        android:layout_gravity="center_horizontal"
+        android:checked="true" />
+
+    <Switch
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="自动更新             "
+        android:id="@+id/switch9"
+        android:layout_gravity="center_horizontal"
+        android:checked="false" />
+
+</LinearLayout>

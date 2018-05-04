@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/zzz_bgimage3"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:gravity="center"
+    >
+
+    <Switch
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="仅wifi下联网     "
+        android:id="@+id/switch17"
+        android:layout_gravity="center_horizontal"
+        android:checked="true" />
+
+    <Switch
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="账户                     "
+        android:id="@+id/switch5"
+        android:layout_gravity="center_horizontal"
+        android:checked="false" />
+
+    <Switch
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="高音质歌曲         "
+        android:id="@+id/switch13"
+        android:layout_gravity="center_horizontal"
+        android:checked="false" />
+
+    <Switch
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="桌面歌词             "
+        android:id="@+id/switch14"
+        android:layout_gravity="center_horizontal"
+        android:checked="false" />
+
+    <Switch
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="线控开关             "
+        android:id="@+id/switch16"
+        android:layout_gravity="center_horizontal"
+        android:checked="true" />
+
+</LinearLayout>

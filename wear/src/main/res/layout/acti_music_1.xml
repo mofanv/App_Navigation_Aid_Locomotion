@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/zzz_bgimage3"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:weightSum="1">
+
+    <TextView
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:id="@+id/t_xianyouka"
+        android:textSize="20dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/zzz_bgimage2"
+        android:text="|>"
+        android:gravity="center"
+        />
+
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lemin tree"
+        android:id="@+id/radioButton7"
+        android:checked="true"
+        android:layout_gravity="center_horizontal" />
+
+</LinearLayout>

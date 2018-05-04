@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Know_1</string>
+    <string name="hello_round">Hello Round World!</string>
+    <string name="hello_square">Hello Square World!</string>
+    <string name="long_press_intro">GoGoGo!</string>
+    <drawable name="bkcolor0">#C0C0C0</drawable>
+    <drawable name="bkcolor1">#000000</drawable>
+</resources>
